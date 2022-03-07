@@ -4,7 +4,7 @@ const app = express()
 app.set("view engine", "ejs")
 
 app.get("/", (req, res) => {
-    res.send("Hi")
+    res.render("index")
 })
 
 app.listen(5000)
